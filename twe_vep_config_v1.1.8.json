@@ -2,7 +2,7 @@
     "config_information":{
         "genome_build": "GRCh37",
         "assay":"TWE",
-        "config_version": "1.1.7"
+        "config_version": "1.1.8"
     },
         "vep_resources":{
         "vep_docker":"file-GQ7Z9y84xyx28bzFGx5jkxkG",
@@ -33,12 +33,12 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,Hom",
-        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF",
+        "vcf_fields": "AC,AN,AF,nhomalt,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax",
+        "required_fields":"gnomADg_AC,gnomADg_AN,gnomADg_AF,gnomADg_nhomalt,gnomADg_popmax,gnomADg_AC_popmax,gnomADg_AN_popmax,gnomADg_AF_popmax,gnomADg_nhomalt_popmax",
         "resource_files": [
           {
-          "file_id": "file-G6zvbFj4Kq40Byxg1vkBq6fQ",
-          "index_id":"file-G6zvbFj4Kq47J4fY1pXGYgbK"
+          "file_id": "file-GYZ8Bg84vFPZ9fxq1J01jyVv",
+          "index_id":"file-GYZ8FF84vFPf6fjg07V7Y6fV"
           }
         ]
       },
@@ -47,12 +47,12 @@
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "AC,AN,AF,Hom",
-        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_Hom",
+        "vcf_fields": "AC,AN,AF,nhomalt,popmax,AC_popmax,AN_popmax,AF_popmax,nhomalt_popmax,non_cancer_AC,non_cancer_AN,non_cancer_AF,non_cancer_nhomalt,non_cancer_AC_popmax,non_cancer_AN_popmax,non_cancer_AF_popmax,non_cancer_nhomalt_popmax,non_cancer_popmax",
+        "required_fields":"gnomADe_AC,gnomADe_AN,gnomADe_AF,gnomADe_nhomalt,gnomADe_popmax,gnomADe_AC_popmax,gnomADe_AN_popmax,gnomADe_AF_popmax,gnomADe_nhomalt_popmax,gnomADe_non_cancer_AC,gnomADe_non_cancer_AN,gnomADe_non_cancer_AF,gnomADe_non_cancer_nhomalt,gnomADe_non_cancer_AC_popmax,gnomADe_non_cancer_AN_popmax,gnomADe_non_cancer_AF_popmax,gnomADe_non_cancer_nhomalt_popmax,gnomADe_non_cancer_popmax",
         "resource_files": [
           {
-          "file_id": "file-G7vj6504kFX7bQyx258v3f1z",
-          "index_id":"file-G7vj6x04kFX53yZP1kF4x324"
+          "file_id": "file-GYg0qBj4vFPg9v0bFxVPZ9Kk",
+          "index_id":"file-GYg0qKQ4vFPj9YbkfVqKZjVP"
           }
         ]
       },
