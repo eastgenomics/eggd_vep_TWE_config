@@ -23,6 +23,7 @@ This json file provides information about annotations,plugins, required fields a
 | **ClinVar** | clinvar_20250115_GRCh37.vcf.gz | clinvar_20250115_GRCh38.vcf.gz | clinvar_20250115_GRCh38.vcf.gz |
 | **gnomAD genomes** | gnomad.genomes.r2.1.1.sites.all.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
 | **gnomAD exomes** | gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
+| **CEN** | - | CEN38_POPAF_chr1-22_240503.vcf.gz |
 | **TWE** | TWE_POPAF_N500_chr1-22_220413.vcf.gz | TWE38_POPAF_chr1-22_241126.vcf.gz |
 | **Medicover** | - | Medicover38_POPAF_chr1-22_241125.vcf.gz |
 | **HGMD** | HGMD_Pro_2024.4_hg19.vcf.gz | HGMD_Pro_2024.4_hg38.vcf.gz |

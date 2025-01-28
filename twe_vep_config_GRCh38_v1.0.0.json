@@ -57,6 +57,20 @@
         ]
       },
       {
+        "name": "CEN",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
+        "required_fields":"CEN_AF,CEN_AC_Hom,CEN_AC_Het,CEN_AN",
+        "resource_files": [
+          {
+          "file_id": "file-GjpKK5Q4bxf3B581FGVZy1f5",
+          "index_id": "file-GjpKKF04bxfJqJqgz543J26g"
+          }
+        ]
+      },
+      {
         "name": "TWE",
         "type": "vcf",
         "annotation_type": "exact",
