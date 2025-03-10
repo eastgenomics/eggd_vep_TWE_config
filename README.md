@@ -11,6 +11,7 @@ A variable level of annotation can be achieved by different combinations of cust
 
 This json file provides information about annotations,plugins, required fields and the genome version.
 
+
 | Key | GRCh37 | GRCh38 |
 |--------------|--------------|--------------|
 | **vep_docker** | vep_v107.0.tar.gz | vep_v107.0.tar.gz |
@@ -20,7 +21,7 @@ This json file provides information about annotations,plugins, required fields a
 | **reference_fai** | Homo_sapiens.GRCh37.dna.toplevel.fa.gz.fai | Homo_sapiens.GRCh38.dna.toplevel.fa.gz.fai |
 | **reference_gzi** | Homo_sapiens.GRCh37.dna.toplevel.fa.gz.gzi | Homo_sapiens.GRCh38.dna.toplevel.fa.gz.gzi |
 | **ref_bcftools** | hs37d5.fasta-index.tar.gz | GRCh38_GIABv3_no_alt_analysis_set_maskedGRC_decoys_MAP2K3_KMT2C_KCNJ18_noChr.fasta-index.tar.gz |
-| **ClinVar** | clinvar_20250115_GRCh37.vcf.gz | clinvar_20250115_GRCh38.vcf.gz | clinvar_20250115_GRCh38.vcf.gz |
+| **ClinVar** | clinvar_20250209_GRCh37.vcf.gz | clinvar_20250115_GRCh38.vcf.gz | clinvar_20250115_GRCh38.vcf.gz |
 | **gnomAD genomes** | gnomad.genomes.r2.1.1.sites.all.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.genomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
 | **gnomAD exomes** | gnomad.exomes.r2.1.1.sites.noVEP_normalised_decomposed_PASS.dias_trimmed_v1.0.0.vcf.bgz | gnomad.exomes.v4.1.sites.all.trimmed_normalised_decomposed_PASS.no_chr.vcf.bgz |
 | **CEN** | - | CEN38_POPAF_chr1-22_240503.vcf.gz |
@@ -36,7 +37,7 @@ This json file provides information about annotations,plugins, required fields a
   How to check the names of all the files included in the config:
 
 ```bash
-config_file=your_file_name.json
+config_file=<your_config_file_name.json>
 
 # Get the Vep Resources filenames
 for file in  $(jq -r ' .vep_resources | .[]' $config_file);
