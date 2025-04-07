@@ -85,30 +85,30 @@
         ]
       },
       {
-        "name": "excluded_variants",
+        "name": "ExcludeVariant",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "EXCL_LIST",
-        "required_fields":"EXCL_LIST",
+        "vcf_fields": "ExcludeList",
+        "required_fields":"ExcludeVariant_ExcludeList",
         "resource_files": [
           {
-          "file_id":"file-Gx9Vjgj4qx5G252f46vPyqpX",
-          "index_id":"file-Gx9Vjgj4qx59Xk2B9Vz5Pkxk"
+          "file_id":"file-GzgpK9j4j4fkqXQ8PG5JYYjJ",
+          "index_id":"file-GzgpKGQ4j4fbFxp63bYyk437"
           }
         ]
       },
       {
-        "name": "included_variants",
+        "name": "IncludeVariant",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
-        "vcf_fields": "INCL_LIST",
-        "required_fields":"INCL_LIST",
+        "vcf_fields": "IncludeList",
+        "required_fields":"IncludeVariant_IncludeList",
         "resource_files": [
           {
-          "file_id":"file-GzXj1J84FqQG2J0k66vQgbbx",
-          "index_id":"file-GzXj1PQ4FqQ3KY52G32ZQBp0"
+          "file_id":"file-GzgpVPj4j4fbp2vB3Gz72P49",
+          "index_id":"file-GzgpVY84j4fj0X4XYjpfXFf9"
           }
         ]
       }
