@@ -32,7 +32,7 @@ This json file provides information about annotations,plugins, required fields a
 | **CADD** | cadd_whole_genome_SNVs_GRCh37.tsv.gz, gnomad.genomes.r2.1.1.indel.tsv.gz, InDels_GRCh37.tsv.gz | cadd_1.7_b38_whole_genome_SNVs.tsv.gz,cadd.1.7.b38.gnomad.genomes.r4.0.indel.tsv.gz |
 | **SpliceAI** | spliceai_scores.masked.snv.hg19.vcf.gz, spliceai_scores.masked.indel.hg19.vcf.gz | spliceai_scores.masked.snv.hg38.vcf.gz,spliceai_scores.masked.indel.hg38.vcf.gz |
 | **IncludeVariant** | GRCh37_inclusion_list_v1.0.1.vcf.gz | GRCh38_inclusion_list_v1.0.0.vcf.gz |
-| **ExcludeVariant** | GRCh37_optimised_filtering_excluded_variants_v1.0.1.vcf.gz | GRCh38_exclusion_list_v1.0.1.vcf.gz |
+| **ExcludeVariant** | GRCh37_optimised_filtering_excluded_variants_v1.0.1.vcf.gz | GRCh38_exclusion_list_v1.1.0.vcf.gz |
 
 
 ## Notes
