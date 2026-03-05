@@ -111,6 +111,20 @@
           "index_id":"file-J08F8Gj4z6j02Jz1Zj9XfvXf"
           }
         ]
+      },
+      {
+        "name": "Prev_Interpret",
+        "type": "vcf",
+        "annotation_type": "exact",
+        "force_coordinates": "0",
+        "vcf_fields": "LATEST_GERMLINE,TOTAL_GERMLINE,LATEST_DATE,LATEST_SAMPLE_ID,AGGREGATED_HGVS",
+        "required_fields":"Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
+        "resource_files": [
+          {
+          "file_id":"file-J6Z4Ypj4bq82BKkk4xy1Jvfv",
+          "index_id":"file-J6Z4Yv04bq85BkVGkfvXk2Vx"
+          }
+        ]
       }
     ],
     "plugins": [
