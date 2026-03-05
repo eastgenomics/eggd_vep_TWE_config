@@ -71,20 +71,6 @@
         ]
       },
       {
-        "name": "Medicover",
-        "type": "vcf",
-        "annotation_type": "exact",
-        "force_coordinates": "0",
-        "vcf_fields": "AF,AC_Hom,AC_Het,AN",
-        "required_fields":"Medicover_AF,Medicover_AC_Hom,Medicover_AC_Het,Medicover_AN",
-        "resource_files": [
-          {
-          "file_id": "file-Gx2KV804Pf00Bj3bkXxvf7qk",
-          "index_id": "file-Gx2KVj04Pf09Jq32pbbxyyb3"
-          }
-        ]
-      },
-      {
         "name": "HGMD",
         "type": "vcf",
         "annotation_type": "exact",
