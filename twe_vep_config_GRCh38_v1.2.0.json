@@ -57,7 +57,7 @@
         ]
       },
       {
-        "name": "CEN_varstore",
+        "name": "TWE_varstore",
         "type": "vcf",
         "annotation_type": "exact",
         "force_coordinates": "0",
