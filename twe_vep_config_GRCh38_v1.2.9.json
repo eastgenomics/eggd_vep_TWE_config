@@ -135,8 +135,8 @@
         "required_fields":"Prev_Interpret_LATEST_GERMLINE,Prev_Interpret_TOTAL_GERMLINE,Prev_Interpret_LATEST_DATE,Prev_Interpret_LATEST_SAMPLE_ID,Prev_Interpret_AGGREGATED_HGVS",
         "resource_files": [
           {
-          "file_id":"file-JF6zzgj4bq886xF72vkPkg66",
-          "index_id":"file-JF6zzk04bq8Kk1ZY9qv8fVGG"
+          "file_id":"file-JFp62Y04bq8K8v69VKj6YYxZ",
+          "index_id":"file-JFp62Z84bq8BBg03Y892bx4J"
           }
         ]
       }
